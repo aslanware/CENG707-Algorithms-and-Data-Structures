@@ -48,4 +48,7 @@ int main() {
 
     list3.print();
 
+    int x;
+    cin >> x;
+
 }
