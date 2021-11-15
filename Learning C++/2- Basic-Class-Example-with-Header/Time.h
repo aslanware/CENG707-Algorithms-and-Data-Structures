@@ -7,6 +7,17 @@
 using namespace std; 
 
 class Time {
+    private:
+
+        // -> Private variables
+
+        // int hour; 
+        // Above: Ex variable
+        
+        // Below: Declaring as a pointer set to a constant adress
+        const int *hour;
+        int minute;
+        int second;
 
     public:
 
@@ -36,18 +47,6 @@ class Time {
         
         // Accesor
         void print() const;
-
-    private:
-
-        // -> Private variables
-
-        // int hour; 
-        // Above: Ex variable
-        
-        // Below: Declaring as a pointer set to a constant adress
-        const int *hour;
-        int minute;
-        int second;
 
 };
 
