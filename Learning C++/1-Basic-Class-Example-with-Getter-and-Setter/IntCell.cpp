@@ -50,5 +50,8 @@ int main()
     // Prints IntCell
     cout << "now Intcell contains: " << intCell.read() << endl; 
 
+    cin >> userInput;
+
+    return 0;
 
 };
